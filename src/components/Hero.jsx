@@ -6,7 +6,7 @@ function Hero() {
     <div className="flex justify-center">
       <div className="px-8 max-w-screen-2xl lg:px-[100px] flex flex-col mt-8 lg:flex-row">
         <div className="relative top-0 left-0 lg:order-1 lg:w-[40%]">
-          <img src={headerPhoto} className="md:max-h-[400px] mx-auto" />
+          <img src={headerPhoto} className="md:max-h-[450px] mx-auto" />
           <div
             className="absolute hidden bottom-0 left-[-10px] right-[-10px] lg:block  bg-no-repeat bg-contain"
             style={{

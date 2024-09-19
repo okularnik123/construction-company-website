@@ -5,7 +5,7 @@ import { FaPhone } from "react-icons/fa6";
 import Menu from "./Menu";
 
 function Navbar() {
-  const [isMenuOpened, setMenuState] = useState(true);
+  const [isMenuOpened, setMenuState] = useState(false);
 
   return (
     <div className="flex justify-center">

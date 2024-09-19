@@ -6,7 +6,7 @@ const Menu = ({ isMenuOpened, setMenuState }) => {
   return (
     <>
       <div
-        className={`w-[100vw] lg:w-auto z-50 lg:hidden bg-white fixed lg:block top-0 flex transition-all duration-700 justify-center  ${
+        className={`w-[100vw] lg:w-auto z-50 lg:hidden bg-white fixed top-0 flex transition-all duration-700 justify-center  ${
           isMenuOpened ? "translate-y-0" : "translate-y-[-400px]"
         }`}
       >
