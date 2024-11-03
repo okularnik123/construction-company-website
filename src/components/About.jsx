@@ -3,13 +3,13 @@ import aboutImage from "../assets/About.jpg";
 
 function About() {
   return (
-    <div className="px-8 mt-12 flex flex-col max-w-[800px] mx-auto lg:max-w-screen-2xl lg:flex-row w-full lg:items-center lg:justify-center">
+    <div className="px-8 lg:px-[100px] mt-12 flex flex-col max-w-[800px] mx-auto lg:max-w-screen-2xl lg:flex-row w-full lg:items-center lg:justify-center">
       <img
         src={aboutImage}
         className="mb-4 hidden lg:block w-[40vw] h-auto self-start mr-16"
       />
       <div>
-        <p className="text-5xl font-medium mb-4">O nas</p>
+        <h2 className="text-5xl font-medium mb-4">O nas</h2>
         <img src={aboutImage} className="mb-4 self-center lg:hidden " />
         <p className="lg:max-w-[500px]">
           Jesteśmy firmą budowlaną z wieloletnim doświadczeniem, specjalizującą

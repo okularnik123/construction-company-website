@@ -11,6 +11,7 @@ export default {
         black: "#151617",
         black5: "rgba(21, 22, 23, 0.05)",
         black10: "rgba(21, 22, 23, 0.10)",
+        black75: "rgba(21, 22, 23, 0.75)",
         black90: "rgba(21, 22, 23, 0.9)",
         black60: "rgba(21, 22, 23, 0.6)",
       },

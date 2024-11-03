@@ -7,7 +7,7 @@ import makita from "../assets/partners/Makita.png";
 import knauf from "../assets/partners/Knauf.png";
 function Partners() {
   return (
-    <div className="px-8 mt-8 flex flex-col items-center lg:flex-row lg:justify-evenly">
+    <div className="px-8 mt-8  lg:px-[100px] flex flex-col items-center lg:flex-row lg:justify-evenly">
       <div>
         <p className="text-4xl font-bold mb-4">
           Jakość, Na Którą Możesz Liczyć
@@ -19,7 +19,7 @@ function Partners() {
           indywidualnie, zapewniając najwyższe standardy wykonania.
         </p>
       </div>
-      <div className="grid grid-rows-3 grid-cols-2 max-h-[550px] items-center gap-x-1 md:grid-rows-2 md:grid-cols-3 md:max-w-[600px]">
+      <div className="grid grid-rows-3 grid-cols-2 max-h-[500px] items-center gap-x-1 md:grid-rows-2 md:grid-cols-3 md:max-w-[600px]">
         <img src={hilti} />
         <img src={schneider} />
         <img src={saintGobain} />
